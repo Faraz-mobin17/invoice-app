@@ -9,6 +9,7 @@ export default {
       green: "#33D69F",
       orange: "#FF8F00",
       purple: "#7C5DFA",
+      sideBarColor: "#373B53",
     },
     extend: {},
   },
