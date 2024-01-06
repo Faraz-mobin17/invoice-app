@@ -8,3 +8,4 @@ export { default as IconMoon } from "./IconMoon";
 export { default as IconPlus } from "./IconPlus";
 export { default as IconRight } from "./IconRight";
 export { default as IconSun } from "./IconSun";
+export { default as IconLogo } from "./IconLogo";
