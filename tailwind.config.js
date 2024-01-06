@@ -11,6 +11,9 @@ export default {
       purple: "#7C5DFA",
       sideBarColor: "#373B53",
     },
+    boxShadow: {
+      customShadow: "0px 10px 10px -10px rgba(72, 84, 159, 0.10)",
+    },
     extend: {},
   },
   plugins: [],
