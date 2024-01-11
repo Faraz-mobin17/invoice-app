@@ -1,32 +1,27 @@
-import { useState } from "react";
-
-function App() {
-  const [count, setCount] = useState(0);
-
+// App.jsx
+import React from "react";
+import { INVOICES } from "../starter-code/data";
+import Invoices from "./components/Invoices";
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
+import DetailInvoices from "./components/DetailInvoices";
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="h-full w-full">
+      <Sidebar />
+      {/* <Header /> */}
+      <DetailInvoices />
+      {/* <div className="pt-20">
+        {INVOICES.map((invoice) => (
+          <Invoices
+            key={invoice.id}
+            {...invoice} // Spread the invoice properties
+            price={invoice.items[0]?.price} // Assuming you want the price of the first item
+          />
+        ))}
+      </div> */}
+    </div>
   );
-}
+};
 
 export default App;
