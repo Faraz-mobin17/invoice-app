@@ -2,29 +2,45 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      tablet: "",
+      desktop: "",
+    },
+    fontSize: {
+      base: ["13px", { lineHeight: "18px", letterSpacing: "-0.1px" }],
+      xs: ["15px", { lineHeight: "15px", letterSpacing: "-0.25px" }],
+      sm: ["15px", { lineHeight: "24px", letterSpacing: "-0.25px" }],
+      md: ["24px", { lineHeight: "22px", letterSpacing: "-0.75px" }],
+      lg: ["36px", { lineHeight: "33px", letterSpacing: "-1px" }],
+    },
     colors: {
       black: "#0C0E16",
-      gray: "#7E88C3",
-      lightGray: "#858BB2",
+      gray: {
+        500: "#DFE3FA",
+        400: "#888EB0",
+      },
       green: "#33D69F",
       orange: "#FF8F00",
-      purple: "#7C5DFA",
+      purple: { 500: "#7C5DFA", 400: "#7E88C3" },
       sideBarColor: "#373B53",
-      layeronevoilet: "#7C5DFA",
-      layeronelightvoilet: "#9277FF",
-      layeronenavydark: "#1E2139",
-      layeronelightnavy: "#252945",
-      layertwolightgray: "#DFE3FA",
-      layertwogray: "#888EB0",
-      layertwolightpurple: "#7E88C3",
-      layertwodark: "#0C0E16",
-      layerthreered: "#EC5757",
-      layerthreelightred: "#FF9797",
+      voilet: {
+        500: "#7C5DFA",
+        400: "#9277FF",
+      },
+      navy: {
+        500: "#1E2139",
+        400: "#252945",
+      },
+      slate: {
+        500: "#0C0E16", // layer 1
+        400: "#DFE3FA", // layer 2 light
+        300: "#141625", // layer 3
+      },
+      red: {
+        500: "#EC5757",
+        400: "#FF9797", // layer 2 light
+      },
       lightbg: "#F8F8FB",
-      layerthreedark: "#141625",
-    },
-    boxShadow: {
-      customShadow: "0px 10px 10px -10px rgba(72, 84, 159, 0.10)",
     },
     extend: {},
   },
