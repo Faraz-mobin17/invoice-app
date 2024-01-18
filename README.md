@@ -1,6 +1,6 @@
 # Frontend Mentor - Invoice app
 
-![Design preview for the Invoice app coding challenge](./preview.jpg)
+![Design preview for the Invoice app coding challenge](./client/preview.jpg)
 
 # Database Structure
 
