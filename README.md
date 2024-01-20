@@ -2,16 +2,16 @@
 
 ![Design preview for the Invoice app coding challenge](./client/preview.jpg)
 
-# Database Structure
+# Invoice Database Structure
 
-## Bill from
+## Bill from - Table
 
 - Street address
 - City
 - Post Code
 - Country
 
-## Bill To
+## Bill To - Table
 
 - Client's Name
 - Client's Email
@@ -23,7 +23,7 @@
 - Payment Terms
 - Project Description
 
-## Item List
+## Item List - Table
 
 - Item Name
 - Quantity
