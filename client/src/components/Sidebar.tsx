@@ -1,8 +1,7 @@
-import React from "react";
 import { IconLogo, IconMoon } from "./icons_components";
 import Avatar from "./Avatar";
 // border-radius: 0px 20px 20px 0px;
-function Sidebar() {
+function Sidebar(): JSX.Element {
   const url = "/assets/image-avatar.jpg";
   return (
     <div className="parent flex flex-col justify-start fixed z-10 left-0 h-full bg-sideBarColor rounded-r-[20px] rounded-br-[20px]">

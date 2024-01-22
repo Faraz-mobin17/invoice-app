@@ -1,6 +1,5 @@
-import React from "react";
 import BottomComponent from "./BottomComponent";
-export function MiddleComponent({}) {
+export function MiddleComponent(): JSX.Element {
   return (
     <div className="info-container container mx-auto shadow p-2 w-[548px] bg-white rounded-md mt-10">
       <div className="flex justify-between">

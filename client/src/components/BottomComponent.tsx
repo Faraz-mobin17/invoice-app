@@ -1,14 +1,18 @@
-import React from "react";
-
-function BottomComponent() {
+/**
+ * Renders a table with information about two items.
+ * @returns JSX.Element representing the table.
+ */
+function BottomComponent(): JSX.Element {
   return (
-    <div className=" container-lg mx-auto bg-slate-50 rounded-tl-lg rounded-tr-lg mt-[50px]">
+    <div className="container-lg mx-auto bg-slate-50 rounded-tl-lg rounded-tr-lg mt-[50px]">
       <table className="table-auto border-collapse">
         <thead>
-          <th>Item Name</th>
-          <th>QTY.</th>
-          <th>Price</th>
-          <th>Total</th>
+          <tr>
+            <th>Item Name</th>
+            <th>QTY.</th>
+            <th>Price</th>
+            <th>Total</th>
+          </tr>
         </thead>
         <tbody>
           <tr>

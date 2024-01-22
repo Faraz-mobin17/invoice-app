@@ -1,6 +1,4 @@
-import React from "react";
-
-function IconRight() {
+function IconRight(): JSX.Element {
   return (
     <svg width="7" height="10" xmlns="http://www.w3.org/2000/svg">
       <path

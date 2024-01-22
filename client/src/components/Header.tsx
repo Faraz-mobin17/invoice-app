@@ -1,8 +1,8 @@
 // Header.jsx
-import React from "react";
+
 import { IconPlus } from "./icons_components/index";
 
-function Header() {
+function Header(): JSX.Element {
   return (
     <header className="flex items-center pt-20">
       <div className="flex flex-col">

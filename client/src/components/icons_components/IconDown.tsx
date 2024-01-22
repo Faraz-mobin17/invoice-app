@@ -1,6 +1,4 @@
-import React from "react";
-
-function IconDown() {
+function IconDown(): JSX.Element {
   return (
     <svg width="11" height="7" xmlns="http://www.w3.org/2000/svg">
       <path

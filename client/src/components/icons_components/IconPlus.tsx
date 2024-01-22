@@ -1,7 +1,6 @@
 // IconPlus.jsx
-import React from "react";
 
-function IconPlus() {
+function IconPlus(): JSX.Element {
   return (
     <div
       className="flex justify-center items-center bg-white rounded-full p-2 cursor-pointer"
